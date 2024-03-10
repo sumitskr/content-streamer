@@ -4,3 +4,12 @@ server:
 spring:
   profiles:
     active: local
+
+  servlet:
+    multipart:
+      max-file-size: 2000MB
+      max-request-size: 2000MB
+
+logging:
+  level:
+    root: DEBUG
